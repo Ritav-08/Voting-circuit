@@ -1,0 +1,135 @@
+$date
+   Mon Apr 20 14:04:01 2026
+$end
+
+$version
+  2025.2
+  $dumpfile ("mVoting.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_mVoting $end
+$var reg 4 ! a_ti [3:0] $end
+$var wire 1 " y_to $end
+$var wire 1 # t_to $end
+$var integer 32 $ i [31:0] $end
+$scope module UUT $end
+$var wire 4 % a_i [3:0] $end
+$var wire 1 " y_o $end
+$var wire 1 # t_o $end
+$var wire 4 & count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+0"
+0#
+b1 $
+b0 %
+b0 &
+$end
+
+#5000
+b1 !
+b10 $
+b1 %
+b1 &
+
+#10000
+b10 !
+b11 $
+b10 %
+
+#15000
+b11 !
+1#
+b100 $
+b11 %
+b10 &
+
+#20000
+b100 !
+0#
+b101 $
+b100 %
+b1 &
+
+#25000
+b101 !
+1#
+b110 $
+b101 %
+b10 &
+
+#30000
+b110 !
+b111 $
+b110 %
+
+#35000
+b111 !
+1"
+0#
+b1000 $
+b111 %
+b11 &
+
+#40000
+b1000 !
+0"
+b1001 $
+b1000 %
+b1 &
+
+#45000
+b1001 !
+1#
+b1010 $
+b1001 %
+b10 &
+
+#50000
+b1010 !
+b1011 $
+b1010 %
+
+#55000
+b1011 !
+1"
+0#
+b1100 $
+b1011 %
+b11 &
+
+#60000
+b1100 !
+0"
+1#
+b1101 $
+b1100 %
+b10 &
+
+#65000
+b1101 !
+1"
+0#
+b1110 $
+b1101 %
+b11 &
+
+#70000
+b1110 !
+b1111 $
+b1110 %
+
+#75000
+b1111 !
+b10000 $
+b1111 %
+b100 &
